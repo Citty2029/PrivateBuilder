@@ -54,7 +54,7 @@ jobs:
     - uses: actions/checkout@v4
       with:
         path: kernel_root
-        repository: citty2029/kernel_lenovo_akita
+        repository: citty2029/kernel-lenovo-akita
         ref: ${{ github.event.inputs.BRANCH }}
         show-progress: false
         fetch-depth: 1
